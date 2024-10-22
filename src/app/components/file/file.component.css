@@ -1,0 +1,32 @@
+:host{
+    margin:auto;
+}
+
+div > div:nth-child(1) > svg {
+    width: var(--file-icon-square-size);
+    height:var(--file-icon-square-size);
+}
+
+div > div:nth-child(5) > svg {
+    width: var(--file-icon-square-size);
+    height:var(--file-icon-square-size);
+}
+
+.file-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--file-background);
+    font-family: var(--file-font-family);
+    padding: 1rem;
+
+}
+
+.file-size{
+    font-weight: 200;
+}
+
+.file-status {
+    border: 1px solid black;
+    border-radius: 5px;
+}

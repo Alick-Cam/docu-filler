@@ -1,0 +1,9 @@
+p {
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--header-footer-font-size);
+    padding: 1rem;
+    margin: 0;
+    height: var(--header-footer-font-size);
+    
+}

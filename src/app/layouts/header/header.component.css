@@ -1,0 +1,27 @@
+.logo {
+    padding: 1rem 1rem 1rem 15rem;
+    font-family: var(--font-family);
+    font-size: var(--header-footer-font-size);
+    display: flex;
+    align-items: stretch;
+    user-select: none;
+}
+
+svg {
+    height: 2rem;
+    width: 2rem;
+}
+.logo > div {
+    box-sizing: border-box;
+}
+
+.name {
+    margin-right:0.25rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.image{
+display: flex;
+flex-direction: column;
+}

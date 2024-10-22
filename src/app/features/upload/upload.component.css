@@ -1,0 +1,27 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: var(--font-family);
+    padding: var(--button-padding);
+    border-radius: var(--burron-border-radius);
+    background-color: var(--button-hover-color);
+    color: var(--light-text);
+    border-width: var(--button-border-width);
+    font-size: var(--button-font-size);
+
+}
+
+button:hover{
+    background-color: var(--cta-color);
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+
+}

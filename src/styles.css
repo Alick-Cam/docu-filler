@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Lucida Bright';
+    src: url('assets/lucidabright_demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    --card-primary-color: #41A5EE;
+    --border-radius: 0.625rem;
+    --light-text: #FFFFFF;
+    --card-font-size: 1.7rem;
+    --font-family: 'Lucida Bright', serif, sans-serif;
+    --card-container-margin: 1rem;
+    --step-number-bg: #FFFFFF;
+    --step-desc-width: 10vw;
+    --button-padding: 1.5rem;
+    --button-border-radius: 0.3rem;
+    --cta-color : #1651AA;
+    --button-border-width : 0.0625rem;
+    --button-font-size: 1.7rem;
+    --main-bg-color: #FCF9F9;
+    --secondary-bg-color: #FFFFFF;
+    --header-footer-font-size: 1.3rem;
+    --darkest-blue : #103F91;
+    --header-footer-height: 5rem ;
+    --button-hover-color: #185ABD;
+    --file-icon-color: #41A5EE;
+    --file-icon-square-size: 2rem;
+    --file-cancel-icon-color: #000000;
+    --file-background: #FFFFFF;
+    --file-font-family: 'Inter';
+    --file-ready-color: #29FF58;
+    --file-processing-color: #41A5EE;
+    --file-failed-color: red;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    background-color: var(--main-bg-color);
+    height: 100%;
+    margin: 0;
+}
+
+#app-root{
+    
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#app-root > *:nth-child(3){
+    margin: auto;
+}
