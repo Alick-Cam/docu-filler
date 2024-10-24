@@ -1,5 +1,6 @@
 :host{
     margin:auto;
+    width: 55%;
 }
 
 div > div:nth-child(1) > svg {
@@ -15,10 +16,12 @@ div > div:nth-child(5) > svg {
 .file-container {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    justify-content: center;
+    gap: 4rem;
     background-color: var(--file-background);
     font-family: var(--file-font-family);
     padding: 1rem;
+
 
 }
 
@@ -29,4 +32,23 @@ div > div:nth-child(5) > svg {
 .file-status {
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.file-name {
+    font-weight: 200;
+}
+
+.ready{
+    border-color: var(--file-ready-color);
+    color: var(--file-ready-color);
+}
+
+.processing {
+    border-color: var(--file-processing-color);
+    color: var(--file-processing-color);
+}
+
+.failed {
+    border-color: var(--file-failed-color);
+    color: var(--file-failed-color);
 }

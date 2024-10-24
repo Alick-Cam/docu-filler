@@ -1,10 +1,10 @@
-import { UpperCasePipe } from '@angular/common';
+import { UpperCasePipe, NgClass } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-file',
   standalone: true,
-  imports: [UpperCasePipe],
+  imports: [UpperCasePipe, NgClass],
   templateUrl: './file.component.html',
   styleUrl: './file.component.css'
 })

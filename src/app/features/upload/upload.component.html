@@ -1,6 +1,7 @@
 <app-file></app-file>
+<input type = "file" class = "file-input" #uploadTemplate (change) = "onTemplateSelected($event)"/>
 <div class = "button-container">
-    <button>
+    <button (click) = "uploadTemplate.click()">
         Fill Template
     </button>
 </div>
